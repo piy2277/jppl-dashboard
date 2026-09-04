@@ -1,14 +1,17 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JPPL Dashboards</title>
-<!-- Forwards the ?pwd token to the production board; the token is NEVER stored here. -->
-<script>if(location.search){location.replace('production.html'+location.search);}</script>
-<style>body{font:16px -apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#0b1020;color:#eef2ff;display:flex;min-height:100vh;align-items:center;justify-content:center;margin:0}
-.c{text-align:center}a{color:#34d399;display:block;margin:10px;text-decoration:none;font-weight:700}.m{color:#93a1c4;font-size:13px}</style>
-</head><body><div class="c">
-<h2>JPPL Dashboards</h2>
-<a href="production.html">🏭 Production board</a>
-<a href="dashboard.html">📊 Main wall board</a>
-<a href="agents.html">🧭 Agent board</a>
-<p class="m">Append <code>?pwd=YOUR_TOKEN</code> to the address — pages are blank without it.</p>
+<!doctype html><html lang=en><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Moved - JPPL dashboards</title>
+<script>
+// Retired 2026-09-03. The dashboards moved to https://dash.jppl.app, where access
+// is controlled by SignIn@JPPL. This mirror could not authenticate anyone, so it
+// no longer carries the reports - only this forward.
+(function(){ location.replace('https://dash.jppl.app/' + (location.search || '')); })();
+</script>
+<meta http-equiv="refresh" content="0; url=https://dash.jppl.app/">
+<style>body{margin:0;height:100vh;display:grid;place-items:center;background:#0b1020;color:#e6edf3;
+font:15px/1.6 system-ui,Segoe UI,Roboto,sans-serif}a{color:#7fb2ff}</style>
+</head><body><div style="text-align:center;padding:2rem">
+<h2>JPPL dashboards have moved</h2>
+<p>They now live at <b>dash.jppl.app</b> behind SignIn@JPPL.</p>
+<p><a href="https://dash.jppl.app/">Open the dashboards</a></p>
 </div></body></html>
